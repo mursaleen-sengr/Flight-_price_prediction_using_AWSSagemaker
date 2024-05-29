@@ -399,7 +399,7 @@ def num_bivar_plots(data, var_x, var_y, figsize=(12, 4.5), scatter_kwargs=dict()
       x=var_x,
       y=var_y,
       ax=axes[0],
-      edgecolor="black",
+      edgecolors="black",
       **scatter_kwargs
   )
   axes[0].set(title="Scatter Plot")
